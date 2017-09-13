@@ -123,6 +123,7 @@ namespace Book_Store
 		
 		Search_search_button.Click += new System.EventHandler (this.Search_search_Click);
 		InitializeComponent();
+		InitializeComponent();
 		
 		
 		
