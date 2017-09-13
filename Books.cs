@@ -125,6 +125,7 @@ namespace Book_Store
 		InitializeComponent();
 		InitializeComponent();
 		InitializeComponent();
+		InitializeComponent();
 		
 		
 		
