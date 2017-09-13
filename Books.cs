@@ -45,6 +45,7 @@ namespace Book_Store
 		//Grid form Total variables and controls declarations
 		protected string Total_sSQL;
 		protected string Total_sCountSQL;
+		
 		protected int Total_CountPage;
 		
 		protected int i_Total_curpage=1;	
@@ -121,7 +122,7 @@ namespace Book_Store
 		Results_Pager.NavigateCompleted+=new NavigateCompletedHandler(this.Results_pager_navigate_completed);
 		
 		Search_search_button.Click += new System.EventHandler (this.Search_search_Click);
-		
+		InitializeComponent();
 		
 		
 		
