@@ -44,6 +44,7 @@ namespace Book_Store
 	public AdvSearch()
 	{
 	this.Init += new System.EventHandler(Page_Init);
+    this.Init += new System.EventHandler(Page_Init);
 	}
 	
 // AdvSearch CustomIncludes end
